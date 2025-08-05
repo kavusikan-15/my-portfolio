@@ -1,0 +1,17 @@
+/* FOOTER SECTION */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+  color: var(--text-color-secondary);
+  transition: color 0.3s ease;
+}
+
+.nav-links-container {
+  display: flex;
+  justify-content: center;
+}
