@@ -1,0 +1,49 @@
+/* CONTACT */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: var(--btn-border-color) 0.1rem solid;
+  border-color: var(--link-decoration-color);
+  background: var(--card-bg);
+  margin: 2rem auto;
+  padding: 0.5rem;
+  box-shadow: 0 4px 8px var(--card-shadow);
+  transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+  color: var(--text-color-secondary);
+  transition: color 0.3s ease;
+}
+
+.contact-icon {
+  cursor: default;
+  filter: var(--icon-filter);
+  transition: filter 0.3s ease;
+  /* These are icons, should be filtered in dark mode */
+}
+
+.email-icon {
+  height: 2.5rem;
+  filter: var(--icon-filter);
+  transition: filter 0.3s ease;
+  /* These are icons, should be filtered in dark mode */
+}
